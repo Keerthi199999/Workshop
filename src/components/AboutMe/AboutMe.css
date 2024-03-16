@@ -1,0 +1,103 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    overflow: hidden;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    animation: slideIn 1s ease;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.title {
+    margin-top: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+.subtitle {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.section-title {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.bio {
+    text-align: justify;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.project-section {
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    animation: slideIn 1s ease;
+}
+
+.project-title {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.project-description {
+    font-size: 1em;
+    color: #666;
+}
+
+.contact-info {
+    font-size: 1.1em;
+    color: #444;
+}
+
+/* Animations */
+@keyframes slideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
