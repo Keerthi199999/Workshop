@@ -4,7 +4,7 @@
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 10px;
-    border: 2px solid #ccc;
+    border: 2px solid #111;
     overflow: hidden;
 }
 
@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 30px;
+   
 }
 
 .profile-pic {
@@ -21,6 +22,7 @@
     object-fit: cover;
     margin-right: 20px;
     animation: slideIn 1s ease;
+    border: 2px solid #111;
 }
 
 .profile-info {
@@ -56,8 +58,8 @@
 }
 
 .project {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: peachpuff;
+    border: 1px solid #111;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 10px;
